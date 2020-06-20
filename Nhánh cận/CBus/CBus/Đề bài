@@ -1,0 +1,6 @@
+-- Đề bài --
+
+There are 𝑛 passengers 1,2,…,𝑛. The passenger 𝑖 want to travel from point 𝑖 to point 𝑖+𝑛(𝑖=1,2,…,𝑛). There is a bus located at point 0 and has 𝑘 places for
+transporting the passengers (it means at any time, there are at most k passengers on the bus). You are given the distance matrix c in which 𝑐(𝑖,𝑗) is the
+traveling distance from point 𝑖 to point 𝑗(𝑖,𝑗=0,1,…,2𝑛). Compute the shortest route for the bus, serving 𝑛 passengers and coming back to point 0 without
+visiting any point more than once (except for the point 0).

@@ -1,0 +1,26 @@
+-- Đề bài --
+
+Đường vành đai III của thành phố Naho nổi tiếng về chất lượng mặt đường tồi tệ. Lí do là đội ngũ sửa chữa đường của thành phố này quá tùy tiện. Đường vành đai III được chia nhỏ
+thành N đoạn kế tiếp nhau có cùng chiều dài đơn vị. Mỗi lần sửa chữa đường họ tiến hành như sau: Một nhóm công nhân sẽ lựa chọn một đoạn đường nào đó và thay thế toàn bộ lớp nhựa
+phủ đường trên đoạn đó. Loại nhựa đường được thay thế trên đoạn này có thể khác hẳn với loại nhựa đường trên các đoạn khác làm gây khó khăn cho việc đi lại trên đường. Là cư dân
+thành phố Naho và là một lập trình viên giỏi, Hải quyết định sử dụng hiểu biết của mình để giúp ích cho xã hội và làm thuận tiện cho cuộc sống của người dân thành phố khi phải đi
+qua đường vành đai III. Cụ thể là Hải quyết định tạo trang web chứa thông tin về độ gập ghềnh của đường. Hải đánh số các đoạn đường từ 1 đến N và thu thập thông tin về loại nhựa
+đường trên từng đoạn 𝑡1,𝑡2,…,𝑡𝑁 (𝑡𝑖 là mã loại nhựa đường phủ trên đoạn đường thứ 𝑖 ). Hải định nghĩa một phần đường là một dãy liên tục các đoạn đường được phủ cùng loại nhựa phủ 𝑡𝑘
+và bên trái và bên phải phần đường đó là các đoạn đường (nếu tồn tại) được phủ loại nhựa khác. Cuối cùng, Hải xác định độ gập ghềnh của đường bằng tổng số lượng phần đường trên
+đường vành đai III. Ví dụ đường phố chứa các đoạn đường được phủ bởi loại nhựa có mã lần lượt tương ứng với 1,1,0,1,1,1 sẽ có độ gập ghềnh bằng 3 vì nó chứa đúng 3 phần đường 11,
+0 và 111. Đường phố chứa các đoạn đường được phủ bởi loại nhựa có mã lần lượt tương ứng với 2,2,2,2 là lý tưởng vì nó chỉ chứa 1 phần đường và có độ gập ghềnh đúng bằng 1.
+
+Dân chúng sẽ hài lòng nếu Hải luôn có thể tính toán và cung cấp trên trang web độ gập ghềnh của đường tại thời điểm hiện tại. Đáng tiếc là mặt đường được thay đổi khá thường xuyên
+và Hải không muốn mỗi lần như vậy lại phải ra đường thu thập dữ liệu. Vì vậy Hải yêu cầu đội ngũ sửa chữa đường mỗi lần sửa đường phải gửi một thông báo cho Hải. Mỗi thông báo bao
+gồm 2 số là số thứ tự đoạn đường được sửa và mã loại nhựa được phủ mới. Nhiệm vụ của Hải là phải cập nhật độ gập ghềnh thực tế của đường sau mỗi thông báo như vậy.
+
+Input
+Dòng đầu tiên chứa số tự nhiên duy nhất 𝑁 là số lượng đoạn đường (1≤N≤105).
+Dòng tiếp theo chứa 𝑁 số nguyên 𝑡1,𝑡2,…,𝑡𝑁 là các loại nhựa đường ban đầu phủ trên các đoạn đường (|𝑡𝑖|≤109).
+Dòng thứ 3 chứa số nguyên duy nhất 𝑄 là số lượng thông báo từ dân chúng về việc sửa chữa mặt đường (1≤𝑄≤105).
+
+Mỗi dòng trong số 𝑄 dòng tiếp theo chứa lần lượt các thông báo. Thông báo thứ 𝑖 là cặp hai số nguyên 𝑝𝑖, 𝑐𝑖 là số thứ tự của đoạn đường được sửa và mã loại nhựa đường mới được phủ
+lên trên đoạn đường này (1≤𝑝𝑖≤𝑁, |𝑐𝑖|≤109). Đoạn đường được đánh số từ 1 đến 𝑁 theo đúng thứ tự ghi loại nhựa đường trong dòng thứ 2 của dữ liệu vào.
+
+Output
+In ra 𝑄 dòng: dòng thứ 𝑖 (1≤𝑖≤𝑄) phải chứa đúng một số nguyên duy nhất là giá trị độ gập ghềnh của đường sau 𝑖 thông báo sửa đường đầu tiên.

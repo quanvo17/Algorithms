@@ -1,0 +1,13 @@
+-- Đề bài --
+
+Hùng là tướng quân của một đội quân lớn, bộ phận thông tin đã chỉ ra rằng kẻ địch đã khởi động một loạt những máy bay chiến đấu nhỏ tiến sát tấn công quân của Hùng. Chỉ còn rất ít
+thời gian để phát hiện ra vị trí chính xác của các chiến đấu cơ này để mà tiêu diệt chúng. Hùng đã điều chỉnh lên tối đa độ nhạy của rada để định vị các chiến đấu cơ này dù rằng
+kích thước của chúng rất nhỏ, tuy nhiên điều đó cũng định vị luôn cả những chú chim đang bay gần đó. Tuy vậy Hùng biết rằng tất cả các chiến đấu cơ dịch chuyển chính xác theo cùng
+một cách, điều đó hi vọng giúp Hùng định vị chính xác vị trí của đàn chiến đấu cơ. Cho biết mô tả của 2 hình ảnh mà rada thu được cách nhau 1 phút, Hùng muốn định vị tập lớn nhất
+các điểm trên ảnh 1, mà có thể tìm thấy nó trên ảnh 2 sau một khoảng di chuyển xác định. Biết rằng dàn chiến đấu cơ có thể không xuất hiện ở trên cả hai ảnh rada.
+
+Dòng đầu tiên ghi ra một số nguyên 𝑇 là số test. Với mỗi test:
+
+Dòng đầu tiên chứa 2 số nguyên 𝐿 và 𝐶 tương ứng là số dòng và số cột của 2 ảnh (1≤𝐿,𝐶≤1000). 2∗𝐿 dòng tiếp theo mỗi dòng chứa 𝐶 số nguyên 0 hoặc 1 cách nhau bởi dấu cách, trong
+đó 𝐿 dòng đầu mô tả ảnh 1, 𝐿 dòng sau mô tả ảnh 2. Ở 1 vị trí xác định, 1 tượng trưng cho có chiến đấu cơ hoặc chim ở đó còn 0 tượng trưng cho vị trí đó không có vật thể nào.
+Biết rằng số lượng số 1 trong một ảnh rada không quá 10000.

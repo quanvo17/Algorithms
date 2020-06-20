@@ -1,0 +1,12 @@
+-- Đề bài --
+
+The BACP is to design a balanced academic curriculum by assigning periods to courses in a way that the academic load of each period is balanced .
+There are 𝑁 courses 1,2,…,𝑁 that must be assigned to 𝑀 periods 1,2,…,𝑀. Each courses 𝑖 has credit 𝑐𝑖 and has some courses as prerequisites. The
+load of a period is defined to be the sum of credits of courses assigned to that period. The prerequisites information is represented by a matrix
+𝐴𝑁×𝑁 in which 𝐴𝑖,𝑗 = 1 indicates that courses 𝑖 must be assigned to a period before the period to which the course 𝑗 is assigned. Compute the
+assignment such that the maximum load for all periods is minimal.
+
+Input
+    Line 1 contains 𝑁 and 𝑀 (2≤𝑁≤16,2≤𝑀≤5)
+    Line 2 contains 𝑐1,𝑐2,…,𝑐𝑁
+    Line 𝑖+2(𝑖=1,…,𝑁) contains the 𝑖𝑡ℎ line of the matrix 𝐴

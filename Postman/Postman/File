@@ -1,0 +1,15 @@
+-- Đề bài --
+
+Chuyển phát hàng là một công việc quan trọng trong thương mại điện tử là lĩnh vực phát triển bùng nổ trong thời gian hiện nay. Ta xét công việc của một nhân viên giao hàng của
+Công ty XYZ chuyên bán hàng trên mạng. Nhân viên giao hàng cần phát các kiện hàng (được đóng gói trong các hộp cùng kích thước) đến các khách hàng có địa chỉ trên một đại lộ có
+dạng một đường thẳng.
+
+Nhân viên giao hàng sẽ nhận các kiện hàng tại trụ sở công ty ở vị trí 𝑥=0, và cần chuyển phát hàng đến 𝑛 khách hàng, được đánh số từ 1 đến 𝑛. Biết 𝑥𝑖 và 𝑚𝑖 là vị trí của khách hàng
+𝑖 và số lượng kiện hàng cần chuyển cho khách hàng này. Do các kiện hàng là khá cồng kềnh nên mỗi lần đi chuyển phát nhân viên giao hàng chỉ có thể mang theo không quá 𝑘 kiện hàng.
+
+Nhân viên giao hàng xuất phát từ trụ sở, nhận một số (không quá 𝑘) kiện hàng và di chuyển theo đại lộ để chuyển phát cho một số khách hàng. Khi giao hết các kiện hàng mang theo,
+nhân viên giao hàng lại quay trở về trụ sở và lặp lại công việc nói trên cho đến khi chuyển phát được tất cả các kiện hàng cho khách hàng. Sau khi kết thúc công việc chuyển phát,
+nhân viên phải quay trở lại trụ sở công ty để nộp cho phòng kế toán tất cả các hóa đơn giao nhận có ký nhận của khách hàng. Giả thiết là: tốc độ di chuyển của nhân viên là 1 đơn
+vị khoảng cách trên một đơn vị thời gian. Thời gian nhận hàng ở trụ sở công ty và thời gian bàn giao hàng cho khách hàng được coi là bằng 0.
+
+Yêu cầu: Giả sử thời điểm mà nhân viên giao hàng bắt đầu công việc là 0. Hãy giúp nhân viên giao hàng tìm cách hoàn thành công việc đã mô tả ở trên tại thời điểm sớm nhất.

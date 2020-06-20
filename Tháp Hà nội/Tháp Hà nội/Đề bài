@@ -1,0 +1,6 @@
+-- Đề bài --
+
+Trò chơi tháp Hà Nội được trình bày như sau : Có 3 cọc A, B, C. Trên cọc A có một chồng gồm n cái đĩa đường
+kính giảm dần (xem hình vẽ). Cần phải chuyển chồng đĩa từ cọc A sang cọc C tuân theo qui tắc, mỗi lần
+chuyển một đĩa và chỉ được xếp đĩa có đường kính nhỏ lên trên đĩa có
+đường kính lớn hơn đồng thời được dùng cọc B làm cọc trung gian.

@@ -1,0 +1,4 @@
+-- Đề bài --
+
+Một người du lịch xuất phát từ thành phố thứ nhất muốn đi thăm quan tất cả 𝑛−1 thành phố khác. mỗi thành phố đúng một lần, rồi quay trở lại thành phố xuất phát.
+Yêu cầu: Cho biết chi phí đi lại giữa các thành phố, hãy giúp người du lịch tìm hành trình với tổng chi phí là nhỏ nhất.

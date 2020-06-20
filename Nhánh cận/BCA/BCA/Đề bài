@@ -1,0 +1,17 @@
+-- Đề bài --
+
+At the beginning of the semester, the head of a computer science department D have to assign courses to teachers in a balanced way. The department D
+has m teachers 𝑇={1,2,...,𝑚} and n courses 𝐶={1,2,...,𝑛}. Each teacher 𝑡∈𝑇 has a preference list which is a list of courses he/she can teach depending
+on his/her specialization. We known a list of pairs of conflicting two courses that cannot be assigned to the same teacher as these courses have been
+already scheduled in the same slot of the timetable. The load of a teacher is the number of courses assigned to her/him. How to assign 𝑛 courses to 𝑚
+teacher such that each course assigned to a teacher is in his/her preference list, no two conflicting courses are assigned to the same teacher, and
+the maximal load is minimal.
+
+Input
+The input consists of following lines
+
+Line 1: contains two integer 𝑚 and 𝑛 (1≤𝑚≤10, 1≤𝑛≤30)
+Line 𝑖+1: contains an positive integer 𝑘 and 𝑘 positive integers indicating the courses that teacher 𝑖 can teach (∀𝑖=1,…,𝑚)
+Line 𝑚+2: contains an integer 𝑘
+Line 𝑖+𝑚+2: contains two integer 𝑖 and 𝑗 indicating two conflicting courses (∀𝑖=1,…,𝑘)
+Output

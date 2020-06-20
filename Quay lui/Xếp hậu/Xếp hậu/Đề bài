@@ -1,0 +1,5 @@
+-- Đề bài --
+
+Liệt kê tất cả các cách sắp xếp n quân hậu trên bàn cờ n × n sao cho
+chúng không ăn lẫn nhau - không có hai con nằm trên cùng dòng, cột hay
+đường chéo

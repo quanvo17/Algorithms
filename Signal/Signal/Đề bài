@@ -1,0 +1,16 @@
+-- Đề bài --
+
+Một thiết bị cảm biến có nhiệm vụ thu nhận dữ liệu về các đối tượng trong 1 khu vực để truyền về cho trung tâm xử lý. Mỗi đối tượng sẽ được biểu diễn bởi 1 dãy số nguyên dương.
+Như vậy, cảm biến sẽ truyền các dãy số về cho trung tâm xử lý. Tuy nhiên, do các đối tượng ở gần nhau và có tín hiệu nhiễu nên một dãy số gửi về cho trung tâm có thể là dữ liệu
+của 2 đối tượng. Dãy 𝑎1,...,𝑎𝑛 sẽ là dữ liệu của 2 đối tượng nếu có 1 vị trí 𝑖 (1<𝑖<𝑛) sao cho 𝑚𝑎𝑥{𝑎1,..,𝑎𝑖−1}−𝑎𝑖≥𝑏 và 𝑚𝑎𝑥{𝑎𝑖+1,..,𝑎𝑛}−𝑎𝑖≥𝑏 với 𝑏 là hằng số cho trước (xem minh hoạ
+trong Hình 1). Khi phát hiện một dãy số 𝑎1,...,𝑎𝑛 là dữ liệu của 2 đối tượng thì cần phải tiến hành cắt dãy số đó thành 2 dãy, mỗi dãy là dữ liệu của một đối tượng. Khi đó vị trí
+cắt sẽ là vị trí i sao cho 𝑚𝑎𝑥{𝑎1,..,𝑎𝑖−1}−𝑎𝑖+𝑚𝑎𝑥{𝑎𝑖+1,..,𝑎𝑛}−𝑎𝑖 đạt giá trị lớn nhất (giá trị đó gọi là độ đo cắt tín hiệu).
+
+Ví dụ: với giá trị b = 5 thì dãy số 3, 5, 4, 7, 2, 5, 4, 6, 9, 8 là dữ liệu của 2 đối tượng vì tìm thấy vị trí 𝑖=5 tại đó 𝑚𝑎𝑥{3,5,4,7}−2≥5 và 𝑚𝑎𝑥{5,4,6,9,8}−2≥5 và vị trí 𝑖=5 cũng
+chính là vị trí cắt.
+
+Yêu cầu: cho trước giá trị 𝑛,𝑏 và dãy số nguyên dương 𝑎1,...,𝑎𝑛. Hãy lập trình kiểm tra xem dãy số 𝑎1,...,𝑎𝑛 có phải là dữ liệu biểu diễn 2 đối tượng hay không và tính độ đo cắt
+tín hiệu nếu câu trả lời là có.
+
+
+

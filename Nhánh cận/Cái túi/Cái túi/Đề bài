@@ -1,0 +1,4 @@
+-- Đề bài --
+
+Một nhà thám hiểm cần đem theo một cái túi có trọng lượng không quá 𝑏. Có 𝑛 đồ vật có thể đem theo. Đồ vật thứ 𝑗 có trọng lượng 𝑎𝑗 và giá trị sử dụng 𝑐𝑗.
+Hỏi nhà thám hiểm cần đem theo những đồ vật nào để cho tổng giá trị sử dụng là lớn nhất mà tổng trọng lượng đồ vật mang theo cái túi không vượt quá 𝑏?
