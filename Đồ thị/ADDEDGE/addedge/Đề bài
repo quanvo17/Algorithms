@@ -1,0 +1,11 @@
+An is obseving an undirected graph. He wonders if there exits in this graph 2 vertices that connecting these 2 vertices will create exactly one more simple cycle. Recall that a simple cycle may be defined either as a sequence of vertices with no repetitions of vertices and edges allowed, other than the repetition of the starting and ending vertex, with each two consecutive vertices in the sequence adjacent to each other in the graph.
+
+Your task is to help An count the number of pairs of vertices satisfying the conditions above.
+
+Input
+The first line consist of two positive integers 𝑛,𝑚 (𝑛,𝑚≤105) which are the number of vertices and the number of edges of the given graph.
+
+Each line in the 𝑚 following lines contains two positive integers 𝑢,𝑣 (𝑢,𝑣≤𝑛) which are two vertices connected by an edge.
+
+Output
+You should output on a single line an unique integer that is the number of pairs you found.
